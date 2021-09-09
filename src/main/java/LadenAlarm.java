@@ -35,7 +35,7 @@ public class LadenAlarm{
 
             case "yellow":
                 if (customers<=30) resultSwitch = "Maximale Personenzahl nicht ueberschritten";
-                else resultSwitch = "Zu viel Personen";
+                else resultSwitch = "Zu viele Personen";
                 break;
 
             case "green":
