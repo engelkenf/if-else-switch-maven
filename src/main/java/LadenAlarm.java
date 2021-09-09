@@ -1,14 +1,18 @@
 public class LadenAlarm{
     public static void main(String[] args){
 
-        System.out.println("Output 29 customers:");
-        System.out.println(howMuchCustomers(29));
+        //System.out.println("Output 29 customers:");
+        //System.out.println(howMuchCustomers(29));
 
-        System.out.println("Output 31 customers:");
-        System.out.println(howMuchCustomers(31));
+        //System.out.println("Output 31 customers:");
+        //System.out.println(howMuchCustomers(31));
 
-        System.out.println("Output 30 customers:");
-        System.out.println(howMuchCustomers(30));
+        //System.out.println("Output 30 customers:");
+        //System.out.println(howMuchCustomers(30));
+
+        int customers = -22;
+        System.out.println(howMuchCustomers(customers));
+
     }
 
     public static String howMuchCustomers(int customers){
