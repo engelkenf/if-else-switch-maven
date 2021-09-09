@@ -1,9 +1,11 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class LadenAlarmTest {
 
     @Test
+    @DisplayName("validCustomers")
     public void validCustomerSize(){
 
         // Given
@@ -17,6 +19,7 @@ public class LadenAlarmTest {
     }
 
     @Test
+    @DisplayName("tooMuchCustomers")
         public void tooMuchCustomersTest(){
 
         // Given
@@ -31,6 +34,7 @@ public class LadenAlarmTest {
     }
 
     @Test
+    @DisplayName("EdgeCase")
     public void edgeCase(){
 
         // Given
